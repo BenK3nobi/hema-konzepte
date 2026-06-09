@@ -1,0 +1,12 @@
+# MkDocs-Build-Ausgabe
+site/
+public/
+
+# Python / virtuelle Umgebung
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Lokale Claude-Einstellungen (nicht teilen)
+.claude/settings.local.json

@@ -1,0 +1,15 @@
+# GitLab Pages: baut die MkDocs-Material-Seite und veröffentlicht sie.
+# Pages serviert den Inhalt des Artefakt-Ordners "public/".
+image: python:3.12-slim
+
+pages:
+  stage: deploy
+  script:
+    - pip install --no-cache-dir -r requirements.txt
+    - mkdocs build --strict --site-dir public
+  artifacts:
+    paths:
+      - public
+  rules:
+    # Nur auf dem Default-Branch (z. B. main) deployen.
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'

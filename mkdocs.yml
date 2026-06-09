@@ -1,0 +1,92 @@
+site_name: HEMA Kurs — Didaktik & Trainingspläne
+site_description: >-
+  Offene Trainings- und Didaktik-Dokumentation für einen Liechtenauer-Langschwert-
+  Kurs (Verein + Hochschulsport). Volle Transparenz für Schüler und Trainer.
+site_author: HEMA Kurs
+
+# Die Kurs-Inhalte liegen im Unterordner docs/ (MkDocs-Konvention).
+# Nicht-Doku-Dateien (CLAUDE.md, archiv/, requirements.txt) bleiben im Repo-Root
+# und sind damit automatisch aus dem Build ausgeschlossen.
+docs_dir: docs
+
+theme:
+  name: material
+  language: de
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Dunkelmodus
+    - scheme: slate
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Hellmodus
+
+plugins:
+  - search:
+      lang: de
+
+markdown_extensions:
+  - tables
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+
+# Zentrale Stelle für die App-URL. Bis die App deployt ist, Platzhalter lassen;
+# danach hier UND in index.md / Grundlagen/glossar.md auf die echte URL setzen.
+extra:
+  app_url: https://hema-app.example
+
+nav:
+  - Start: index.md
+  - Konzept:
+      - Grundidee: Konzept/grundidee.md
+      - Didaktik-Rationale: Konzept/didaktik-rationale.md
+      - Verletzungsprävention: Konzept/verletzungspraevention.md
+      - Periodisierung: Konzept/periodisierung.md
+      - Methoden: Konzept/methoden.md
+  - Grundlagen:
+      - Glossar (Index → App): Grundlagen/glossar.md
+      - Sicherheit & Kodex: Grundlagen/sicherheit-kodex.md
+      - Ausrüstung: Grundlagen/ausruestung.md
+  - Curriculum Verein:
+      - Überblick: Curriculum Verein/README.md
+      - Anfänger A1: Curriculum Verein/anfaenger-A1.md
+      - Anfänger A2: Curriculum Verein/anfaenger-A2.md
+      - Anfänger A3: Curriculum Verein/anfaenger-A3.md
+      - Fortgeschrittene F1: Curriculum Verein/fortgeschrittene-F1.md
+      - Fortgeschrittene F2: Curriculum Verein/fortgeschrittene-F2.md
+      - Fortgeschrittene F3: Curriculum Verein/fortgeschrittene-F3.md
+      - Prüfung & Übergang: Curriculum Verein/pruefung-uebergang.md
+  - Curriculum Hochschulsport:
+      - Überblick: Curriculum Hochschulsport/README.md
+      - 13-Wochen-Plan: Curriculum Hochschulsport/13-wochen-plan.md
+      - 13-Wochen-Detailplan: Curriculum Hochschulsport/13-wochen-detailplan.md
+  - Erweiterungen:
+      - Fiore-Ergänzungen: Erweiterungen/fiore-ergaenzungen.md
+      - Dolch, Stange & Ringen: Erweiterungen/dolch-stange-ringen.md
+      - Dussack & Säbel (Ausblick): Erweiterungen/dussack-saebel-ausblick.md
+      - Meyer-Vertiefung: Erweiterungen/meyer-vertiefung.md
+  - App-Integration:
+      - Technik-Mapping: App-Integration/technik-mapping.md
+      - Überführbarkeit: App-Integration/ueberfuehrbarkeit.md
+      - Kurs-Definitionen: App-Integration/kurs-definitionen.md
+  - Quellen: quellen.md
+  - Impressum: Impressum.md
+  - Datenschutz: Datenschutz.md

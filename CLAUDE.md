@@ -51,7 +51,7 @@ Alle Kurs-Inhalte liegen im Ordner **`docs/`** (MkDocs-Konvention, siehe
 CLAUDE.md                    Dieses Dokument (Repo-Root, nicht auf der Website)
 mkdocs.yml                   Website-Konfiguration (MkDocs Material)
 requirements.txt             Python-Abhängigkeit (mkdocs-material) für den Build
-.gitlab-ci.yml               CI: baut & veröffentlicht via GitLab Pages
+.github/workflows/deploy.yml CI: baut & veröffentlicht via GitHub Pages
 archiv/                      Diskussions-PDFs (Recherche-Rohmaterial, nicht publiziert)
 docs/                        ← alle veröffentlichten Inhalte
   index.md                   Startseite der Website
@@ -79,7 +79,7 @@ docs/                        ← alle veröffentlichten Inhalte
     kurs-definitionen.md       Specs für seed.mjs (Kurse, Graduierungen)
 ```
 
-## Website (öffentliche Doku via MkDocs + GitLab Pages)
+## Website (öffentliche Doku via MkDocs + GitHub Pages)
 Die Inhalte in `docs/` werden als **statische Website** veröffentlicht — volle
 Transparenz für Schüler und Trainer. Die **App wird nur verlinkt**, nicht
 eingebettet (Platzhalter-URL `https://hema-app.example` in `mkdocs.yml`,
@@ -88,7 +88,7 @@ eingebettet (Platzhalter-URL `https://hema-app.example` in `mkdocs.yml`,
 pip install -r requirements.txt   # einmalig (am besten in venv)
 mkdocs serve                      # lokale Vorschau auf http://127.0.0.1:8000
 mkdocs build --strict             # Build prüfen (fängt kaputte Links/Nav)
-# Deploy: Push auf den GitLab-Default-Branch → .gitlab-ci.yml baut nach public/
+# Deploy: Push auf main → .github/workflows/deploy.yml baut & published via GitHub Pages
 ```
 
 ## Nützliche Befehle (App)

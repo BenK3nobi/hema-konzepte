@@ -23,18 +23,21 @@ Dies ist eine **statische Website** (vorgenerierte HTML-Seiten). Sie enthält:
 Es werden daher **keine personenbezogenen Daten der Besucher aktiv erhoben oder
 gespeichert**.
 
-## 3. Hosting (GitLab Pages)
+## 3. Hosting (GitHub Pages)
 
-Die Seite wird über **GitLab Pages** ausgeliefert. Beim Aufruf verarbeitet der
-Hosting-Anbieter technisch notwendige **Server-Logdaten** (u. a. IP-Adresse,
-Zeitpunkt, abgerufene Datei, Browser-/Geräteangaben), um die Auslieferung zu
-ermöglichen und die Sicherheit zu gewährleisten.
+Die Seite wird über **GitHub Pages** (GitHub Inc.) ausgeliefert. Beim Aufruf
+verarbeitet der Hosting-Anbieter technisch notwendige **Server-Logdaten**
+(u. a. IP-Adresse, Zeitpunkt, abgerufene Datei, Browser-/Geräteangaben), um die
+Auslieferung zu ermöglichen und die Sicherheit zu gewährleisten.
 
 - Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse am sicheren
   Betrieb).
-- Anbieter: [GitLab Inc., Anschrift / bzw. genutzte GitLab-Instanz eintragen].
-- Bei Nutzung eines Anbieters außerhalb der EU: Grundlage der Übermittlung prüfen
-  (z. B. Standardvertragsklauseln) und ggf. Auftragsverarbeitungsvertrag schließen.
+- Anbieter: GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107,
+  USA (Tochterunternehmen der Microsoft Corporation).
+- **Drittlandübermittlung (USA):** GitHub kann Daten in den USA verarbeiten.
+  Grundlage der Übermittlung prüfen (z. B. EU-US Data Privacy Framework bzw.
+  EU-Standardvertragsklauseln) und ggf. einen Auftragsverarbeitungsvertrag
+  (Art. 28 DSGVO) schließen.
 
 ## 4. Verlinkte Lern-App
 

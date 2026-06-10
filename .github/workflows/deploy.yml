@@ -23,6 +23,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Pages konfigurieren (aktiviert Pages + setzt Quelle = GitHub Actions)
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - name: Python einrichten
         uses: actions/setup-python@v5
         with:

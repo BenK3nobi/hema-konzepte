@@ -5,7 +5,9 @@
 **Verantwortlich für den Inhalt:**
 
 Benedikt Schmitz
+
 Reuterallee 59
+
 64207 Darmstadt
 
 ## Kontakt
@@ -15,7 +17,9 @@ Reuterallee 59
 ## Verantwortlich i. S. d. § 18 Abs. 2 MStV
 
 Benedikt Schmitz
+
 Reuterallee 59
+
 64207 Darmstadt
 
 ---

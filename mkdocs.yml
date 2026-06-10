@@ -12,6 +12,9 @@ docs_dir: docs
 theme:
   name: material
   language: de
+  # Datenschutz: keine Google Fonts vom CDN laden (keine IP-Übertragung an Google).
+  # MkDocs Material nutzt dann lokale System-Schriftarten.
+  font: false
   features:
     - navigation.sections
     - navigation.top

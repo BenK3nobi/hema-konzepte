@@ -66,18 +66,18 @@ nav:
       - Sicherheit & Kodex: Grundlagen/sicherheit-kodex.md
       - Ausrüstung: Grundlagen/ausruestung.md
   - Curriculum Verein:
-      - Überblick: Curriculum Verein/README.md
-      - Anfänger A1: Curriculum Verein/anfaenger-A1.md
-      - Anfänger A2: Curriculum Verein/anfaenger-A2.md
-      - Anfänger A3: Curriculum Verein/anfaenger-A3.md
-      - Fortgeschrittene F1: Curriculum Verein/fortgeschrittene-F1.md
-      - Fortgeschrittene F2: Curriculum Verein/fortgeschrittene-F2.md
-      - Fortgeschrittene F3: Curriculum Verein/fortgeschrittene-F3.md
-      - Prüfung & Übergang: Curriculum Verein/pruefung-uebergang.md
+      - Überblick: curriculum-verein/README.md
+      - Anfänger A1: curriculum-verein/anfaenger-A1.md
+      - Anfänger A2: curriculum-verein/anfaenger-A2.md
+      - Anfänger A3: curriculum-verein/anfaenger-A3.md
+      - Fortgeschrittene F1: curriculum-verein/fortgeschrittene-F1.md
+      - Fortgeschrittene F2: curriculum-verein/fortgeschrittene-F2.md
+      - Fortgeschrittene F3: curriculum-verein/fortgeschrittene-F3.md
+      - Prüfung & Übergang: curriculum-verein/pruefung-uebergang.md
   - Curriculum Hochschulsport:
-      - Überblick: Curriculum Hochschulsport/README.md
-      - 13-Wochen-Plan: Curriculum Hochschulsport/13-wochen-plan.md
-      - 13-Wochen-Detailplan: Curriculum Hochschulsport/13-wochen-detailplan.md
+      - Überblick: curriculum-hochschulsport/README.md
+      - 13-Wochen-Plan: curriculum-hochschulsport/13-wochen-plan.md
+      - 13-Wochen-Detailplan: curriculum-hochschulsport/13-wochen-detailplan.md
   - Erweiterungen:
       - Fiore-Ergänzungen: Erweiterungen/fiore-ergaenzungen.md
       - Dolch, Stange & Ringen: Erweiterungen/dolch-stange-ringen.md

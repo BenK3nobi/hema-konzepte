@@ -13,9 +13,9 @@ Vertiefung. Grundlage: sportmedizinische/wissenschaftliche Trainingsweisen
 (Motorlernphasen, Constraints-Led Approach, Verletzungsprävention, Periodisierung).
 
 ## Zwei Kontexte (ineinander überführbar)
-- **Verein** (`Curriculum Verein/`): Jahresprogramm, Anfänger (A1–A3) +
+- **Verein** (`docs/curriculum-verein/`): Jahresprogramm, Anfänger (A1–A3) +
   Fortgeschrittene (F1–F3), parallel, plus offenes Training.
-- **Hochschulsport** (`Curriculum Hochschulsport/`): 13-Wochen-Kurs, 1×90 min,
+- **Hochschulsport** (`docs/curriculum-hochschulsport/`): 13-Wochen-Kurs, 1×90 min,
   Anfänger + Fortgeschrittene gemischt im selben Raum.
 
 Beide Kurse greifen auf **dieselben Techniken** zu. Da die App den Fortschritt
@@ -67,9 +67,9 @@ docs/                        ← alle veröffentlichten Inhalte
     glossar.md                 Index auf App-Slugs (Quelle = App)
     sicherheit-kodex.md        Sicherheitsregeln + Verhaltenskodex
     ausruestung.md             Ausrüstungsliste
-  Curriculum Verein/         Jahresprogramm
+  curriculum-verein/         Jahresprogramm
     README.md, anfaenger-A1..A3.md, fortgeschrittene-F1..F3.md, pruefung-uebergang.md
-  Curriculum Hochschulsport/ 13-Wochen-Kurs
+  curriculum-hochschulsport/ 13-Wochen-Kurs
     README.md, 13-wochen-plan.md, 13-wochen-detailplan.md
   Erweiterungen/             Die „Idee"-Bausteine
     fiore-ergaenzungen.md, dolch-stange-ringen.md, dussack-saebel-ausblick.md, meyer-vertiefung.md

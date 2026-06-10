@@ -22,8 +22,8 @@ Das Langschwert-Glossar der App ist nahezu vollständig.
 | Schritt (italienisch) | `step-mosse` `step-motus` `step-caminieren` `step-passata` `step-botta-lunga-passo-straordinario` |
 
 > Hinweis: Die beiden Curricula nennen Techniken teils in Prosa. Alle in den
-> Wochenplänen (`Curriculum Hochschulsport/13-wochen-plan.md`,
-> `Curriculum Verein/anfaenger-A1.md`) referenzierten Begriffe sind durch obige
+> Wochenplänen (`curriculum-hochschulsport/13-wochen-plan.md`,
+> `curriculum-verein/anfaenger-A1.md`) referenzierten Begriffe sind durch obige
 > Slugs gedeckt. Konsistenz-Check siehe unten.
 
 ## Erweiterungs-Waffen — Lücken ⛔ (Phase 5)
@@ -49,7 +49,7 @@ Details je Baustein in `../Erweiterungen/`. Anlegen über das App-Schema
 Prüfen, dass jeder in einem Wochenplan referenzierte Slug existiert:
 ```bash
 APP="../HEMA-app (copy)/app/content/techniques"
-grep -rhoE 'gl-[a-z0-9-]+|step-[a-z0-9-]+' "Curriculum Hochschulsport" "Curriculum Verein" \
+grep -rhoE 'gl-[a-z0-9-]+|step-[a-z0-9-]+' curriculum-hochschulsport curriculum-verein \
   | sort -u | while read s; do [ -f "$APP/$s.md" ] || echo "FEHLT: $s"; done
 ```
 Erwartung: keine Ausgabe für Langschwert-Slugs; Erweiterungs-Slugs erscheinen bis

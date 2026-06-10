@@ -19,7 +19,7 @@ reduziert). Begründung: Erholung von Hand/Schulter (siehe
 **Deload-Wochen sind didaktisch wertvoll**, nicht „Leerlauf":
 - Quellenarbeit / Theorie (Liechtenauer-Vers, Glossarbegriffe).
 - Lockeres Techniktraining, Wiederholung statt Neuerwerb.
-- **Prüfungen / Level-Checks** (siehe `../Curriculum Verein/pruefung-uebergang.md`).
+- **Prüfungen / Level-Checks** (siehe `../curriculum-verein/pruefung-uebergang.md`).
 - Spielformen mit niedriger Intensität.
 
 ## Concurrent Periodization
@@ -28,7 +28,7 @@ sequenziell. Passt zum Vereinsmodell (Anfänger und Fortgeschrittene laufen
 parallel) und zum gemischten Hochschulsport-Raum.
 
 ## Saison-/Makrostruktur (Verein)
-Grobe Jahreslogik; Detail in `../Curriculum Verein/README.md`.
+Grobe Jahreslogik; Detail in `../curriculum-verein/README.md`.
 - **Grundlagen-Saison:** Langschwert-Kern (A1–A2), Bewegung, Basishäue.
 - **Winter-/Übergangsblock:** **Dolch & Stange als Deloading** der Langschwert-
   Strukturen, Ringen ergänzend (siehe `../Erweiterungen/dolch-stange-ringen.md`).

@@ -20,8 +20,8 @@ Schüler *und* Trainer**. Sie beschreibt, **wie und warum** wir lehren.
 - **Schüler:** Starte bei **[Grundlagen](Grundlagen/glossar.md)** (Glossar,
   [Sicherheit & Kodex](Grundlagen/sicherheit-kodex.md),
   [Ausrüstung](Grundlagen/ausruestung.md)) und schau in deinen Kurs:
-  [Verein](<Curriculum Verein/README.md>) oder
-  [Hochschulsport](<Curriculum Hochschulsport/README.md>).
+  [Verein](curriculum-verein/README.md) oder
+  [Hochschulsport](curriculum-hochschulsport/README.md).
 - **Trainer & Cotrainer:** Das **[Konzept](Konzept/grundidee.md)** erklärt die
   sportwissenschaftliche Begründung; die Curricula liefern die Wochen-Progression,
   die [Erweiterungen](Erweiterungen/fiore-ergaenzungen.md) die „Idee"-Bausteine
@@ -35,9 +35,9 @@ sportwissenschaftlich fundiert (Motorlernphasen, CLA, Verletzungsprävention,
 Periodisierung).
 
 ## Zwei Kontexte, dieselben Techniken
-- **[Verein](<Curriculum Verein/README.md>):** Jahresprogramm, Anfänger (A1–A3) +
+- **[Verein](curriculum-verein/README.md):** Jahresprogramm, Anfänger (A1–A3) +
   Fortgeschrittene (F1–F3).
-- **[Hochschulsport](<Curriculum Hochschulsport/README.md>):** 13-Wochen-Kurs,
+- **[Hochschulsport](curriculum-hochschulsport/README.md):** 13-Wochen-Kurs,
   1×90 min, gemischt.
 
 Weil die App den Fortschritt **pro Technik** speichert, sind beide Kurse
